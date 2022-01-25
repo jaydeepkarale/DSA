@@ -1,0 +1,31 @@
+O(n) means for a given number of inputs n how mch time does our algorith take to produce th desired output.
+
+Constants arre ignored so O(n+1) or O(2n) are same as O(n).
+
+# Constant Time
+O(1) means the cost is fixxed regardless of the inputs. For example adding two numnbers will always involves the same amount of work irrespective of the input size.
+
+# Linear Time
+O(n) is used to represent the functions whose costs scale linearly as the input grows. For loops or functions involving iterating over data usually have O(n) time complexity.
+
+# Logarithmic Time
+O(log n) as input grows the time required doesn't grow by the same amount.
+
+# Quadratic Time
+O(n^2) nested loops looping over the same iterable are example where the time required grows quadratically i.e. doubles as input grows.
+a = [1,2,3,4,5,6]
+for i in a:
+    for j in a:
+        pass
+       
+
+# Cubic Time
+O(n^3) nested loops with 3 loops iterating over same iterable
+ 
+# Bonus 
+O(nm) where n and m are different inputs. if n or m is small then it becomes an O(n) algorithm but if both of them are huge then the time required for the algorithm increases rapidly.
+
+# While analyzing algorithms it is important to know the upper limit i.e. worst input and the lower limit i.e. best case input and the averge case input as well. But we mostly care about
+the worst case only as the real world is not a nice place and things can always go wrong. That is why we rarely hear Big Omega :)
+Worst Case = Big O
+Best Case = Big Omega

@@ -1,1 +1,4 @@
-
+Chain of nodes.
+Each node has 2 components, the value and the address of the next node. The nodes thus form a chain called Linked List.
+# SinglyLinkedList can only be travered in one direction
+# DoublyLinkedList allows bidirectional traversing by storing address of both the next & the prior node.

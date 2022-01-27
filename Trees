@@ -1,0 +1,16 @@
+Trees store data in form of PARENT-CHILD relationship.
+Each CHILD has ATMOST 1 PARENT. 
+Each PARENT can have different CHILDREN based on type of tree.
+
+# BINARY TREE
+-- In BINARY TREES PARENT can have 1 or 2 CHILDREN. The ROOT node has no PARENT.
+-- Edges connect nodes
+-- Leaf nodes have no children
+-- Internal nodes are those which are neither root nor children
+-- Degree is the max number of children a node can have, for binary tree it is always 2
+-- Level is the distance of node from the ROOT + 1. So root will have a LEVEL 1, the child of ROOT will have level 2 & so on.
+
+# BINARY SEARCH TREE
+-- A binary tree where the smaller values go to the left.
+-- Insertion in binary search tree has average case of O(log n) and worst case of O(n)
+

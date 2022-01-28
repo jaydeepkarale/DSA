@@ -22,4 +22,13 @@
 -- Best & average case  O(log n), worst case O(n^2)
 
 # LinearSearch
--- 
+-- Scan start to end until you find the value.
+-- O(n) performance because in the worst case we will find the element at last.
+
+# Binary Search
+-- Start with sorted array & look at the middle.
+-- If your value > middle/pivot look to right else look left and do a linear search.
+-- O(log n) performance if data is sorted.
+
+
+

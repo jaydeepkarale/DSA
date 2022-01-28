@@ -10,3 +10,16 @@
    [6, 3, 4, 5, 7, 4, 8]
 -- Best case O(n) performance, average and worst case are O(n^2). Due to poor performance this is a poor general purpose sorting algorithm. But if an array is nearly 
    sorted INSERTION sort offers better performance & is a good choice.
+
+# Merge Sort
+-- Divide & conquer. Split array into sub-arrays of a single item, compare individual items & merge items into sorted array
+-- Best, average and worst case are O(log n)
+
+# Quick Sort
+-- Pick a pivot value, reorder elements around the pivot point, repeat.
+-- Pivot value is 1) either random 2) select first or last array 3) Use median
+-- All values to left of PIVOTs should be smaller than PIVOT & those to right should be greater.
+-- Best & average case  O(log n), worst case O(n^2)
+
+# LinearSearch
+-- 

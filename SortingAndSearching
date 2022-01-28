@@ -36,5 +36,17 @@
 -- O(nm) worst case performance
 -- Requires no preprocessing of strings.
 
+# Bouer-Moore-Horspool String Searching
+-- Relies on building a bad match table. To build a bad match table we
+   -- Slide the entire length of the string to be searched if current character doesn't exist in the string to be matched.
+   -- For the first character in the string we use the formula (length of string - index of character(1) - 1)
+   -- For the second character in the string we use the formula (length of string - index of character(2) - 1)
+   and so on..
+   -- We then use this table to slide when matching the string in given sentence.
+-- O(n) average case performance.
+-- O(nm) worst case performance.
+-- The larger the bad match table the better the performance.
+
+
 
 

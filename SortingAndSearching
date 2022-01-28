@@ -1,0 +1,12 @@
+# Bubble Sort
+-- Iterate over the array from start to end, if two neighbours are out of order swap them, repeat until array is sorted.
+-- Called bubble sort based on the fact that bubbles in carbonated water float to the top, similarly bigger elements float to the top of the array i.e. higher indexes.
+-- Best case O(n) performance, average and worst case are O(n^2). Due to poor performance this is a poor general purpose sorting algorithm.
+
+# Insertion Sort
+-- Iterate over the array from start to end, if two neighbours are out of order find the correct insertion place and then repeat.
+-- Generally sorting algos need to be stable i.e. if two same elements need to be sorted the one which was found later should be stored later only and not moved before 
+   the first one. For example the index of thesecond 4 should always come after the first 4s index
+   [6, 3, 4, 5, 7, 4, 8]
+-- Best case O(n) performance, average and worst case are O(n^2). Due to poor performance this is a poor general purpose sorting algorithm. But if an array is nearly 
+   sorted INSERTION sort offers better performance & is a good choice.

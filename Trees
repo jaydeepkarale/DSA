@@ -14,3 +14,6 @@ Each PARENT can have different CHILDREN based on type of tree.
 -- A binary tree where the smaller values go to the left.
 -- Insertion, Removal & searching in binary search tree has average case of O(log n) and worst case of O(n)
 
+# B Trees
+
+

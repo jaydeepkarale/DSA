@@ -30,5 +30,11 @@
 -- If your value > middle/pivot look to right else look left and do a linear search.
 -- O(log n) performance if data is sorted.
 
+# Naive String Search
+-- Same as linear search, iterate over string untill we find a match
+-- O(n+m) average case performance
+-- O(nm) worst case performance
+-- Requires no preprocessing of strings.
+
 
 
